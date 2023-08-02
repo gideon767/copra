@@ -1,0 +1,648 @@
+/* Default Settings */
+/* Default START */
+#cursor {
+    color: #fbff0b;
+    animation: blink 1s linear infinite;
+}
+@keyframes blink {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+    }
+}
+/* Type Writer text animation */
+.underline {
+    height: 3px;
+    width: 100px;
+    background-color: #f7941d;
+}
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn-primary {
+    background-color: #fff;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #f7941d;
+    color: #fff !important;
+}
+.product-item {
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    position: relative;
+}
+.product-img:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
+    z-index: 1;
+}
+#shows1 {
+    display: none;
+}
+#shows2 {
+    display: none;
+}
+.action {
+    color: #000000;
+    font-weight: 700;
+}
+.btnLink {
+    border-radius: 0;
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: #234d2d;
+    transition: ease-in-out;
+}
+.btnLink:hover {
+    color: #080808;
+    background-color: #dde004;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+#marginSides {
+    padding: 1% 15%;
+}
+.heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color:rgb(37, 40, 38);
+}
+.paragraph {
+    font-size: 1rem;
+    color: rgba(86,93,89);
+    font-weight: 400;
+    line-height: 2;
+}
+.sub_text_bold {
+    font-weight: 900;
+}
+.badge {
+    background-color: rgb(248, 47, 81);
+    color: #fff;
+}
+/* Default END */
+/* Navigation Section */
+.navbar {
+    padding: 1% 10%;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px #dadada;
+}
+.navbar-nav .nav-item {
+    margin: 5px 10px;
+    font-weight: 500;
+    transition: all .5s ease-in;
+}
+.navbar-nav .nav-item:hover {
+    background-color: #dde004;
+}
+
+/* Hero section */
+/* .carousel-caption {
+    margin-bottom: 23%;
+} */
+.carousel-texts {
+    margin-bottom: 25%;
+}
+.carousel-texts-two {
+    margin-bottom: 29%;
+}
+.carousel-caption h1 {
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+}
+.carousel-caption p {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    line-height: 2;
+}
+.carousel-caption .dn:hover {
+    color: #c9cc06;
+}
+.carousel-caption .btn {
+    background-color: rgba(62,101,83);
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all .5s ease-in-out;
+}
+.carousel-caption .btn:hover {
+    background-color: #dde004;
+    color: #000;
+}
+
+/* About us */
+.about_section {
+    margin-top: 100px;
+}
+.our-story {
+    margin-top: 50px;
+}
+.story-content .img-cap {
+    text-align: center;
+}
+.img-cap {
+    margin: 10px 0;
+    font-size: .8rem;
+    color: rgb(141, 120, 0);
+    font-weight: 400;
+    cursor: pointer;
+}
+.our-story .story-content {
+    margin-top: 20px;
+}
+.story-content p {
+    text-align: center;
+}
+.featured {
+    margin: 100px 0 100px 0;
+}
+.edit_features {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #dde004;
+    padding: 1% 15%;
+}
+.contact_heading h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color:#000;
+}
+.contact-content {
+    margin: 50px 0 50px 0;
+}
+.submit_button .btn {
+    background-color: rgba(62,101,83);
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all .5s ease-in-out;
+}
+.submit_button .btn:hover {
+    background-color: rgb(41, 65, 53);
+}
+.contact_heading h1 {
+    margin-bottom: 20px;
+}
+
+/* Footer Section */
+#footerSides {
+    padding: 1% 8%;
+}
+.footer {
+    background-color: #745903;
+}
+.footer-content ul {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    line-height: 2;
+    padding: 0;
+}
+.footer-content li {
+    list-style: none;
+}
+.sub_bold {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.footer-content a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-bottom {
+    background-color: #1a3a28;
+    color: #fff;
+}
+.footer-bottom-content {
+    padding: 40px 0 20px 0;
+}
+.footer-content i {
+    color: #1a3a28;
+    background-color: #fff;
+    font-size: 1rem;
+    border-radius: .2rem;
+    padding: 10px;
+    transition: all .5s ease-in-out;
+}
+.footer-content i:hover {
+    background-color: #1a3a28;
+    color: #fff;
+}
+.footer-bottom-content p {
+    cursor: pointer;
+}
+
+
+/* Our Brands Section */
+.display-content .card {
+    border: none;
+}
+.brand-section {
+    margin: 20px 0 100px 0;
+    font-family: "Poppins", sans-serif;
+}
+.brand-display {
+    margin-top: 100px;
+}
+.product-details {
+    background-color: #dde004;
+    /* padding: 20px 0; */
+}
+.product-detail .body {
+    padding: 20px 5px;
+    text-align: center;
+    background-color: #1a3a28;
+    color: #fff;
+}
+.display-content .card {
+    box-shadow: 1px 1px 5px 1px #e4e4e3;
+}
+.eat_smart {
+    font-weight: 900;
+    color: #1a3a28;
+}
+/* Recipes Section */
+.carousel-caption .dn {
+    color: #dde004;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+.recipes-content {
+    padding: 1% 15%;
+    margin: 50px 0 100px 0;
+}
+.recipes .headd {
+    margin-top: 65px;
+}
+/* Wholesale Section */
+.contact-page {
+    margin: 20px 0;
+}
+.submit_button .submit {
+    background-color: rgba(62,101,83);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.contact-page__left-text {
+    margin-top: 10px;
+}
+.contact-page__left .sec-title__title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color:rgb(37, 40, 38);
+}
+.sec-title__title {
+    margin-top: 10px;
+}
+.contact-page__left .contact-page__left-text {
+    font-size: .9rem;
+    color: rgba(86,93,89);
+    font-weight: 400;
+    line-height: 2;
+}
+.contact-page__social-link a {
+    text-decoration: none;
+    color: rgba(62,101,83);
+    margin: 0 10px;
+    padding: 10px 15px 10px 15px;
+    margin: 0 0 10px 0;
+    border-radius: .2rem;
+    background-color: rgb(235, 235, 235);
+    transition: all .5s ease-in;
+}
+.contact-page__social-link a:hover {
+    background-color: rgba(62,101,83);
+    color: rgb(235, 235, 235);
+}
+.contact-page__social-link {
+    margin-top: 50px;
+}
+.forms {
+    margin: 50px 0;
+}
+
+/* Sustainability Section */
+.sustainabilty {
+    margin: 50px 0 100px 0;
+}
+.sus-images {
+    margin-top:50px;
+}
+
+/* Investors Section */
+#more {
+    display: none;
+}
+.invest-cont2 {
+    margin-top: 10px;
+}
+.why_invest {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* News Section */
+.news_topic {
+    margin-bottom: 50px;
+}
+.news_section {
+    margin: 20px 0;
+}
+.news_content .img1 {
+    border-radius: 10px;
+}
+.news_section button {
+    margin: 0 5px 0 0;
+}
+/* Add */
+.news_content .card {
+    border: none;
+}
+.content-id {
+    margin-top: 1rem;
+}
+.content-id .img2 {
+    height: 50px;
+    border-radius: 100%;
+}
+.content-id p {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.content-id i {
+    margin-top: 18px;
+    margin-left: 50px;
+    color: #dde004;
+}
+.news_content .content-id {
+    display: flex;
+}
+.subContent-id {
+    margin: 10px 0;
+}
+.subContent-id .btn{
+    border-radius: 50px;
+    color: #fff;
+    background-color: #1a3a28;
+    transition: all .5s ease-in-out;
+}
+.subContent-id .btn:hover {
+    background-color: #dde004;
+    color: #000;
+    box-shadow: 4px 8px 4px #cfcfcf;
+}
+
+/* Parallax Scroll Effect */
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(10px);
+    transform: translateX(-100%);
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/* Media Queries Below */
+
+/* Parallax Scroll Effect */
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+/* Hero Section/Footer Media Query */
+@media screen and (max-width:1000px){
+    /* .carousel-caption {
+        margin-bottom: 10%;
+    } */
+    .carousel-texts {
+        margin-bottom: 10%;
+    }
+    .carousel-texts-two {
+        margin-bottom: 10%;
+    }
+    .carousel-caption .btn {
+        background-color: rgba(62,101,83);
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-weight: 500;
+        transition: all .5s ease-in-out;
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .carousel-caption h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1.5;
+    }
+    .footer-bottom-content p {
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width:550px){
+    .disappear {
+        display: none;
+    }
+    .carousel-caption {
+        margin-bottom: 0;
+    }
+    .carousel-texts-two {
+        margin-bottom: 10%;
+    }
+    .carousel-caption .btn {
+        background-color: rgba(62,101,83);
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: .7rem;
+        font-weight: 500;
+        transition: all .5s ease-in-out;
+    }
+    .carousel-caption p {
+        font-size: .7rem;
+        line-height: 1;
+    }
+    .carousel-caption h1 {
+        font-size: .8rem;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1.1;
+    }
+    .about_details h2 {
+        font-size: 1rem;
+    }
+    .about_details p {
+        font-size: .8rem;
+    }
+    .head h2 {
+        font-size: 1rem;
+    }
+    .story-content p {
+        font-size: .8rem;
+        text-align: left;
+    }
+    .edit_features {
+        font-size: .9rem;
+    }
+    .contact-content h1{
+        font-size: 1.5rem;
+    }
+    .contact-content p {
+        font-size: .8rem;
+    }
+    .news_content p {
+        font-size: .8rem;
+    }
+    .sec-title .sec-title__tagline {
+        font-size: .8rem;
+    }
+    .contact-page__left .sec-title__title {
+        font-size: 1.5rem;
+    }
+    .contact-page__left .contact-page__left-text {
+        font-size: .8rem;
+    }
+    .invest-cont .heading {
+        font-size: 1.5rem;
+    }
+    .invest-cont .sub_text_bold {
+        font-size: .9rem;
+    }
+    .invest-cont2 .heading {
+        font-size: 1.5rem;
+    }
+    .investors_content p {
+        font-size: .8rem;
+    }
+    .why_invest p {
+        font-size: .8rem;
+    }
+    .headd .heading {
+        font-size: 1.5rem;
+    }
+    .headd .sub_text_bold {
+        font-size: 1rem;
+    }
+    .recipes p {
+        font-size: .8rem;
+    }
+    .recipes-content {
+        margin-top: 0;
+    }
+    .contentss .right-side p {
+        font-size: .8rem;
+    }
+    .sus-content .heading {
+        font-size: 1.5rem;
+    }
+    .sus-content .sub_text_bold {
+        font-size: 1rem;
+    }
+    .sus-content .paragraph {
+        font-size: .8rem;
+    }
+    .into-brands .heading {
+        font-size: 1.5rem;
+    }
+    .citrus-content .text-center {
+        font-size: 1rem;
+    }
+    .citrus-content .eat_smart {
+        font-size: .9rem;
+        text-align: center;
+    }
+    .citrus-content .paragraph {
+        font-size: .8rem;
+    }
+    .body .sub_bold {
+        font-size: 1rem;
+    }
+    .body p {
+        font-size: .8rem;
+    }
+    label {
+        font-size: .8rem;
+    }
+    .submit_button .btn {
+        font-size: .8rem;
+    }
+    .footer-bottom-content p {
+        font-size: .8rem;
+        text-align: center;
+    }
+    .footer-content ul {
+        font-size: .8rem;
+    }
+    .footer-content i {
+        font-size: .8rem;
+    }
+}
+
+/* News Section Media Query */
+@media screen and (max-width:400px) {
+    .news_topic p {
+        font-size: .8rem;
+    }
+    .news_topic h4 {
+        font-size: 1.5rem;
+    }
+    .content-id .img2 {
+        height: 40px;
+        border-radius: 80%;
+    }
+    .content-id p {
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 10px;
+    }
+    .content-id i {
+        margin-top: 15px;
+        margin-left: 47px;
+        color: #dde004;
+    }
+    .subContent-id .btn {
+        font-size: .7rem;
+    }
+    .subContent-id p {
+        font-size: .9rem;
+    }
+}
